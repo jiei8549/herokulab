@@ -1,0 +1,78 @@
+/*Different colors for different difficulty*/
+/*congratulation gif when complete the challenge*/
+/*Ei Jia Zhan, Eugene*/
+body
+{
+  transition: background-color;
+	background-color: MediumSpringGreen;
+	border: 2px dotted white;
+	font-size: 40px;
+}
+
+#main
+{
+	padding: 2%;
+}
+
+#level
+{
+	color: white;
+	margin-left: 10px;	
+}
+
+#goal
+{
+	color: peru;		
+    margin-left: 10px;	
+}
+
+#userinput
+{
+	color:white;	
+    margin-left: 10px;
+}
+
+.text { 
+  position: sticky;
+  line-height: 24px;
+}
+
+.text::after {
+    content: "";
+    width: 5px;
+    height: 40px;
+    position: absolute;
+    background-color: black;
+    animation: blink 0.8s step-end infinite;
+  }
+
+.restart {
+  position: absolute;
+  background-color:rgb(167, 29, 82);
+  cursor: pointer;
+  color:#ffffff;
+  padding: 10px;
+  padding: 8px 30px;
+}
+.restart:hover {
+  background-color:greenyellow;
+}
+.restart:active {
+  position: relative;
+}
+
+.next {
+    position: absolute;
+    background-color:rgb(55, 212, 102);
+    cursor:pointer;
+    color:#ffffff;
+    padding: 10px;
+    padding: 8px 30px;
+}
+.next:hover {
+    background-color:rgb(189, 86, 27);
+}
+.next:active {
+    position: relative;
+}
+
